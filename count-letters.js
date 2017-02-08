@@ -10,8 +10,8 @@ function p(item){
 
 function countLetters(phrase){
   letterBreakDown={};
-  //phrase=phrase.replace(/\s/g,'');
-  phrase=phrase.replace(' ','');
+  phrase=phrase.replace(/\s/g,'');
+  //phrase=phrase.replace(' ','');
   var phrase1=phrase.split('');
   var unique=phrase.split('');
   unique=Array.from(new Set(unique));
